@@ -1,13 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    padding-top: 50px;
-
+    padding-top: 30px;
     background-image: url(../img/background.jpg);
 }
 
 #board {
-
+    padding-top: 50px;
     width: 400px;
     margin: 20px auto;
 }
@@ -16,11 +15,9 @@ body {
     width: 100%;
     text-align: center;
     background-color: antiquewhite;
-    border: 2px solid black;
-
 }
 .controls button {
     width: 400px;
-    height: 50px;
+    height: 100px;
     font-size: 16px;
 }
