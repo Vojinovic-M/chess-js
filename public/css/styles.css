@@ -1,28 +1,26 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     text-align: center;
     padding-top: 50px;
+
+    background-image: url(../img/background.jpg);
 }
 
 #board {
-    border: 2px solid #333;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
 
-.controls {
-    margin-top: 10px;
-}
-
-#board {
     width: 400px;
     margin: 20px auto;
 }
+
 .controls {
+    width: 100%;
     text-align: center;
-    margin-top: 20px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+
 }
 .controls button {
-    padding: 10px 20px;
+    width: 400px;
+    height: 50px;
     font-size: 16px;
 }

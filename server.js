@@ -1,4 +1,4 @@
-//  mongoose which is a JS library to create a connection between MongoDB and Node.js app.
+//  mongoose is a JS library to create a connection between MongoDB and Node.js app.
 // Nodemon is a tool to observe the changes in the file and restarts the server.
 
 const express = require('express');

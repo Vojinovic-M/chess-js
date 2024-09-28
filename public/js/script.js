@@ -38,25 +38,18 @@ function handleMove(source, target) {
 function checkGameEnd() {
     if (game.in_checkmate()) {
         setTimeout(() => alert('Checkmate! Game Over.'), 10);
-        board.position('start'); // Reset board after game over
+        board.position('reset'); // Reset board after game over
     } else if (game.in_draw()) {
         setTimeout(() => alert('Draw!'), 10);
-        board.position('start'); // Reset board after game over
+        board.position('reset'); // Reset board after game over
     } else if (game.in_stalemate()) {
         setTimeout(() => alert('Stalemate!'), 10);
-        board.position('start'); // Reset board after game over
+        board.position('reset'); // Reset board after game over
     }
 }
 
 // Reset game button
 document.getElementById('resetBtn').addEventListener('click', function() {
-    game.reset();
-    board.start();
-    updateTurnText();
-});
-
-// Start position button
-document.getElementById('startBtn').addEventListener('click', function() {
     game.reset();
     board.start();
     updateTurnText();
