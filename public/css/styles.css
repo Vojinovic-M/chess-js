@@ -13,3 +13,16 @@ body {
 .controls {
     margin-top: 10px;
 }
+
+#board {
+    width: 400px;
+    margin: 20px auto;
+}
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+.controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
